@@ -1,5 +1,10 @@
 {
     "require": {
-        "doctrine/orm": "*"
+        "doctrine/orm": "*",
+        "symfony/yaml": "*"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
     }
 }
+
